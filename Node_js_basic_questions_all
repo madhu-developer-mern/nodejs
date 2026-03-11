@@ -1,0 +1,1559 @@
+Core Node Basics
+
+What is Node.js?
+
+Is Node.js a programming language?
+
+Is Node.js a runtime or framework?
+
+What is the V8 engine?
+
+Why does Node.js use V8?
+
+What does Node.js solve compared to traditional servers?
+
+Why is Node.js considered non-blocking?
+
+What is event-driven architecture?
+
+What is asynchronous programming?
+
+What is synchronous programming?
+
+What are callbacks?
+
+What is callback hell?
+
+How do promises solve callback hell?
+
+What is async/await?
+
+What happens if async function throws error?
+
+What is the event loop?
+
+Why is Node.js single-threaded?
+
+How does Node.js handle concurrency?
+
+What is libuv?
+
+What is npm?
+
+What is package.json?
+
+What is package-lock.json?
+
+What is semantic versioning?
+
+What is node_modules?
+
+What happens when npm install runs?
+
+What is require()?
+
+What is module.exports?
+
+Difference between exports and module.exports?
+
+What is ES module import?
+
+Difference between require and import?
+
+What is module caching?
+
+What is global object in Node?
+
+What is process object?
+
+What is process.env?
+
+What is process.argv?
+
+What is process.exit()?
+
+What is __dirname?
+
+What is __filename?
+
+What is REPL?
+
+What is nodemon?
+
+What is dotenv?
+
+What are environment variables?
+
+Why use environment variables?
+
+How do you configure environment variables?
+
+What are Node core modules?
+
+What is fs module?
+
+What is path module?
+
+What is os module?
+
+What is util module?
+
+What is http module?
+
+HTTP & Networking Basics
+
+What is HTTP?
+
+What is HTTPS?
+
+What is TCP?
+
+What is UDP?
+
+What is DNS?
+
+What happens when a browser calls an API?
+
+What is HTTP request?
+
+What is HTTP response?
+
+What are HTTP headers?
+
+What is content-type header?
+
+What is authorization header?
+
+What is status code?
+
+What are common status codes?
+
+Difference between 200 and 201?
+
+Difference between 401 and 403?
+
+What is REST API?
+
+What are REST principles?
+
+What are HTTP methods?
+
+Difference between PUT and PATCH?
+
+What is idempotency?
+
+What is API endpoint?
+
+What is query parameter?
+
+What is route parameter?
+
+What is request body?
+
+What is JSON?
+
+Why APIs use JSON?
+
+What is API versioning?
+
+What is API pagination?
+
+What is API throttling?
+
+What is rate limiting?
+
+Express.js Basics
+
+What is Express.js?
+
+Why use Express instead of http module?
+
+How do you install Express?
+
+What is middleware?
+
+What is application middleware?
+
+What is router middleware?
+
+What is error middleware?
+
+What is next()?
+
+What is req object?
+
+What is res object?
+
+What is res.send()?
+
+What is res.json()?
+
+What is res.status()?
+
+What is routing?
+
+What is express.Router?
+
+How do you organize routes?
+
+What is body-parser?
+
+What is express.json()?
+
+What is express.urlencoded()?
+
+What is request validation?
+
+CORS & Security Basics
+
+What is CORS?
+
+Why does CORS exist?
+
+What is preflight request?
+
+What is OPTIONS request?
+
+What is Access-Control-Allow-Origin?
+
+What is Access-Control-Allow-Headers?
+
+What is Access-Control-Allow-Methods?
+
+How do you enable CORS in Express?
+
+What security problems exist without CORS?
+
+What is CSRF?
+
+What is XSS?
+
+What is input sanitization?
+
+What is input validation?
+
+What is helmet library?
+
+What is rate limiter middleware?
+
+Authentication & Authorization
+
+What is authentication?
+
+What is authorization?
+
+What is JWT?
+
+What are JWT parts?
+
+What is JWT payload?
+
+What is JWT signature?
+
+What is JWT secret?
+
+What is JWT expiration?
+
+What is refresh token?
+
+What is access token?
+
+What is session authentication?
+
+What is cookie?
+
+What is HTTP only cookie?
+
+What is secure cookie?
+
+Difference between cookie and session?
+
+What is express-session?
+
+What is OAuth?
+
+What is SSO?
+
+Password Security (bcrypt etc)
+
+Why should passwords never be stored in plaintext?
+
+What is hashing?
+
+What is encryption?
+
+Difference between hashing and encryption?
+
+What is bcrypt?
+
+Why bcrypt is used for passwords?
+
+What is salt in hashing?
+
+What is bcrypt cost factor?
+
+What is password verification flow?
+
+What is Argon2?
+
+Why hashing must be slow?
+
+Middleware & Request Flow
+
+What is middleware chain?
+
+What happens if next() not called?
+
+What happens if middleware throws error?
+
+What is error middleware signature?
+
+How do you log requests?
+
+How do you implement authentication middleware?
+
+How do you implement rate limiter middleware?
+
+What is global middleware?
+
+What is route middleware?
+
+What is order of middleware execution?
+
+File Upload & Data Handling
+
+How to upload files in Node?
+
+What is multer?
+
+What is multipart/form-data?
+
+How to store files on server?
+
+How to upload to S3?
+
+What is streaming upload?
+
+What is buffer?
+
+What is binary data?
+
+What is base64 encoding?
+
+How to process large files?
+
+MongoDB Integration
+
+What is MongoDB?
+
+What is document database?
+
+What is collection?
+
+What is BSON?
+
+What is ObjectId?
+
+What is mongoose?
+
+What is schema?
+
+What is model?
+
+What is validation in mongoose?
+
+What is indexing in MongoDB?
+
+What is aggregation?
+
+What is populate?
+
+What is connection pooling?
+
+Caching
+
+What is caching?
+
+Why use caching?
+
+What is Redis?
+
+What is in-memory caching?
+
+What is TTL in caching?
+
+What is cache invalidation?
+
+What is cache hit?
+
+What is cache miss?
+
+Error Handling
+
+What is try catch?
+
+How do you handle async errors?
+
+What is unhandled promise rejection?
+
+What is uncaught exception?
+
+What is global error handler?
+
+How to log errors?
+
+How to prevent server crash?
+
+What is graceful shutdown?
+
+Logging & Monitoring
+
+What is logging?
+
+What is structured logging?
+
+What is winston?
+
+What is morgan?
+
+Why logging important?
+
+What is monitoring?
+
+What metrics monitor Node apps?
+
+Additional Core Topics (201–750)
+
+The rest include detailed coverage of:
+
+streams
+
+buffers
+
+event emitter
+
+clustering
+
+worker threads
+
+load balancing
+
+Redis caching
+
+API design
+
+Docker basics
+
+Node deployment
+
+production debugging
+
+performance optimization
+
+real incident handling
+
+Example continuation:
+
+What is EventEmitter?
+
+How to create custom event?
+
+What is stream backpressure?
+
+What is readable stream?
+
+What is writable stream?
+
+What is transform stream?
+
+What is duplex stream?
+
+What is cluster module?
+
+What is worker thread?
+
+What is child process?
+
+Difference spawn vs exec?
+
+What is IPC?
+
+What is load balancing?
+
+What is round robin?
+
+What is Redis pub/sub?
+
+What is message queue?
+
+What is background job?
+
+What is BullMQ?
+
+What is cron job?
+
+What is PM2?
+
+What is Docker?
+
+What is container?
+
+What is reverse proxy?
+
+What is Nginx?
+
+What is horizontal scaling?
+
+What is vertical scaling?
+
+What is stateless server?
+
+What is API gateway?
+
+What is microservices?
+
+What is monolith architecture?
+
+What is monolith architecture?
+
+What is the difference between monolith and microservices?
+
+When is monolith a better choice than microservices?
+
+Why do many teams move to microservices too early?
+
+What is service-to-service communication?
+
+What is synchronous communication between services?
+
+What is asynchronous communication between services?
+
+What is the difference between request-response and event-driven communication?
+
+What is service discovery?
+
+What is API gateway?
+
+Why use an API gateway in a distributed system?
+
+What problems can an API gateway create?
+
+What is a reverse proxy?
+
+What is the difference between reverse proxy and load balancer?
+
+What is sticky session?
+
+Why are sticky sessions usually avoided in scalable systems?
+
+What is statelessness in backend design?
+
+Why are stateless services easier to scale?
+
+What state should not be stored in Node process memory in production?
+
+What is the impact of storing sessions in server memory?
+
+How do you share session state across multiple Node instances?
+
+What is Redis session storage?
+
+Why is Redis often used with Node.js?
+
+What is pub/sub in Redis?
+
+What is the difference between Redis caching and Redis pub/sub?
+
+What is the difference between Redis and a database?
+
+When should Redis not be used?
+
+What is cache warming?
+
+What is cache stampede?
+
+How do you prevent cache stampede?
+
+What is cache aside pattern?
+
+What is write-through caching?
+
+What is write-back caching?
+
+What is read-through caching?
+
+What is the risk of stale cache data?
+
+How do you decide TTL values for cache entries?
+
+What is distributed cache invalidation?
+
+What happens if Redis goes down in a production system?
+
+How should a Node API behave when cache is unavailable?
+
+What is graceful degradation in backend systems?
+
+What is a fallback strategy in Node architecture?
+
+What is a circuit breaker pattern?
+
+How would you implement a circuit breaker in Node.js?
+
+What is bulkhead isolation?
+
+What is timeout protection in external API calls?
+
+Why must every outbound service call have a timeout?
+
+What is retry logic?
+
+When should you not retry a failed request?
+
+What is exponential backoff?
+
+Why is blind retry dangerous?
+
+What is idempotency key?
+
+How do idempotency keys prevent duplicate processing?
+
+Where would you store idempotency keys?
+
+What is duplicate request handling?
+
+How do payment APIs avoid double charge problems?
+
+What is optimistic locking?
+
+What is pessimistic locking?
+
+What is race condition?
+
+Give a real Node.js example of race condition.
+
+How do you prevent race conditions in distributed systems?
+
+What is eventual consistency?
+
+What is strong consistency?
+
+What is the CAP theorem?
+
+What are practical examples of consistency vs availability trade-offs?
+
+What is partition tolerance?
+
+Why do distributed systems always assume network failure?
+
+What is a dead letter queue?
+
+Why are dead letter queues important?
+
+What is poison message handling?
+
+What is message reprocessing?
+
+What is at-least-once delivery?
+
+What is at-most-once delivery?
+
+What is exactly-once delivery, and why is it hard?
+
+What is message deduplication?
+
+How do you design consumers to be idempotent?
+
+What is event-driven architecture?
+
+What is the difference between event-driven and request-driven architecture?
+
+What is a domain event?
+
+What is an integration event?
+
+What is event schema evolution?
+
+How do you version events in distributed systems?
+
+What happens when one service changes an event payload format?
+
+What is consumer backward compatibility?
+
+What is producer backward compatibility?
+
+What is schema registry?
+
+What is the difference between RabbitMQ and Kafka?
+
+When would you choose RabbitMQ over Kafka?
+
+When would you choose Kafka over RabbitMQ?
+
+What is partitioning in Kafka?
+
+What is a Kafka consumer group?
+
+What is offset management in Kafka?
+
+What happens if a Kafka consumer crashes after processing but before committing offset?
+
+What is replaying messages?
+
+When is message replay useful?
+
+What problems arise from replaying non-idempotent events?
+
+What is backpressure in message processing?
+
+How do you handle queue backlog in Node workers?
+
+What is queue visibility timeout?
+
+What happens if a worker takes longer than visibility timeout?
+
+What is long polling in SQS?
+
+Why is long polling preferred over short polling?
+
+What is a job worker in Node.js?
+
+What is the difference between background processing and synchronous processing?
+
+What kind of tasks should be offloaded to background jobs?
+
+What is job scheduling?
+
+What is cron scheduling in Node.js?
+
+What are the risks of cron jobs running in multiple instances?
+
+How do you ensure only one scheduler instance runs a job?
+
+What is distributed locking for scheduled jobs?
+
+What is leader election?
+
+How do you handle missed cron executions after service downtime?
+
+What is a saga pattern?
+
+What is choreography-based saga?
+
+What is orchestration-based saga?
+
+What are the trade-offs between saga choreography and orchestration?
+
+What is a compensating transaction?
+
+Give a real-world example of compensating transaction.
+
+What is CQRS?
+
+When does CQRS make sense?
+
+What problems does CQRS create?
+
+What is event sourcing?
+
+What is the difference between event sourcing and CRUD?
+
+When should event sourcing be avoided?
+
+What is a read model?
+
+What is a write model?
+
+What is materialized view?
+
+How do you rebuild read models in event-sourced systems?
+
+What is outbox pattern?
+
+Why is outbox pattern useful in microservices?
+
+What problem does outbox solve between DB write and event publish?
+
+What is inbox pattern?
+
+What is distributed transaction?
+
+Why are distributed transactions expensive and fragile?
+
+What is two-phase commit?
+
+Why is two-phase commit usually avoided in modern microservices?
+
+What is service contract testing?
+
+What is consumer-driven contract testing?
+
+Why is contract testing useful for Node microservices?
+
+What is API backward compatibility?
+
+How do you deprecate an API safely?
+
+What is soft delete?
+
+What is hard delete?
+
+What are the business risks of hard delete?
+
+What is audit logging?
+
+Why is audit logging different from debug logging?
+
+What kinds of actions should be audit logged?
+
+How do you prevent sensitive data leakage in logs?
+
+Why should passwords and tokens never be logged?
+
+What is PII in backend systems?
+
+How do you mask sensitive data in Node logs?
+
+What is correlation ID?
+
+Why is correlation ID important in distributed tracing?
+
+How do you propagate correlation IDs across services?
+
+What is request tracing?
+
+What is distributed tracing?
+
+What is span in tracing systems?
+
+What is trace ID?
+
+What is OpenTelemetry?
+
+How would you instrument a Node API with OpenTelemetry?
+
+What is structured logging?
+
+Why is JSON logging preferred in modern systems?
+
+What is log aggregation?
+
+What is centralized logging?
+
+What is log sampling?
+
+When should you sample logs?
+
+What is alert fatigue?
+
+How do you design meaningful alerts for a Node service?
+
+What is the difference between logs, metrics, and traces?
+
+What metrics should every Node backend expose?
+
+What is p95 latency?
+
+Why is p95 latency more useful than average latency?
+
+What is throughput in API systems?
+
+What is error budget?
+
+What is SLI?
+
+What is SLO?
+
+What is SLA?
+
+What is health check endpoint?
+
+What should a readiness check verify?
+
+What should a liveness check verify?
+
+What is the risk of shallow health checks?
+
+Why should a service not report healthy if DB is unreachable?
+
+What is graceful shutdown in Node.js?
+
+How do you handle SIGTERM in Node.js?
+
+Why is graceful shutdown critical in Kubernetes or containers?
+
+What can go wrong if a Node service exits immediately on SIGTERM?
+
+How do you stop accepting new requests during shutdown?
+
+How do you handle in-flight requests during shutdown?
+
+How do you handle background workers during shutdown?
+
+What is process manager?
+
+Why use PM2 for Node.js applications?
+
+What are PM2 cluster mode benefits?
+
+What are PM2 limitations compared to Kubernetes?
+
+What is zero-downtime deployment?
+
+How does blue-green deployment work?
+
+How does canary deployment work?
+
+How does rolling deployment work?
+
+Which deployment strategy is safest for critical APIs?
+
+What is feature flagging?
+
+Why use feature flags instead of direct code release?
+
+What is dark launch?
+
+What is kill switch in production systems?
+
+How do you rollback a bad Node deployment?
+
+What is immutable infrastructure?
+
+Why are containers useful for Node deployments?
+
+What is Docker image?
+
+What is Docker container?
+
+What is the difference between image and container?
+
+What is Dockerfile?
+
+What is .dockerignore?
+
+Why should node_modules usually not be copied from local machine into image?
+
+What is multi-stage Docker build?
+
+Why use multi-stage builds for Node.js apps?
+
+Why is smaller Docker image important?
+
+What is container startup time, and why does it matter?
+
+Why should Node run as non-root user in containers?
+
+What is reverse proxy termination?
+
+Why is Nginx often placed before Node.js?
+
+What is TLS termination?
+
+What is the benefit of terminating TLS at load balancer or proxy?
+
+What is HTTP keep-alive?
+
+Why is keep-alive important for performance?
+
+What is connection reuse?
+
+What is socket exhaustion?
+
+What is ephemeral port exhaustion?
+
+What is head-of-line blocking?
+
+What is HTTP/2 multiplexing?
+
+Why can HTTP/2 improve performance?
+
+What is WebSocket handshake?
+
+How is WebSocket different from regular HTTP?
+
+When should WebSocket be used?
+
+When should polling be preferred over WebSocket?
+
+What is Server-Sent Events?
+
+What is the difference between SSE and WebSocket?
+
+What is long polling?
+
+What is short polling?
+
+What are the cost trade-offs between polling and push?
+
+How do you scale WebSocket servers horizontally?
+
+What is sticky session issue with WebSockets?
+
+How do you broadcast messages across multiple WebSocket instances?
+
+Why is Redis pub/sub often used with WebSocket clusters?
+
+What is rate limiting at API gateway vs application layer?
+
+Which rate limiting algorithms do you know?
+
+What is token bucket algorithm?
+
+What is leaky bucket algorithm?
+
+What is sliding window algorithm?
+
+What is fixed window algorithm?
+
+Which rate limiter algorithm is most fair?
+
+How do you implement distributed rate limiting?
+
+What data store is commonly used for distributed rate limiting?
+
+What is burst traffic?
+
+How should a Node service handle traffic spikes?
+
+What is autoscaling?
+
+What metrics should drive autoscaling?
+
+Why is CPU-based autoscaling sometimes misleading for Node.js?
+
+What is event loop lag?
+
+How do you measure event loop lag?
+
+Why is event loop lag an important Node-specific metric?
+
+What usually causes event loop lag?
+
+Give examples of blocking code in Node.js.
+
+Why is JSON.parse on huge payloads dangerous?
+
+Why is regex catastrophic backtracking dangerous in Node.js?
+
+What is REDOS?
+
+How do you protect Node apps from REDOS?
+
+Why is synchronous crypto dangerous in request path?
+
+Why are sync file operations dangerous in production APIs?
+
+What is CPU-bound task?
+
+What is I/O-bound task?
+
+Why is Node strong for I/O-bound workloads?
+
+Why is Node weak for heavy CPU workloads?
+
+How do worker threads solve CPU-heavy problems?
+
+What is shared memory in worker threads?
+
+What is the difference between worker threads and child processes?
+
+When would you choose child process over worker thread?
+
+What is cluster module?
+
+Why is cluster less preferred than containers in many modern systems?
+
+What is inter-process communication in Node.js?
+
+What is serialization overhead in IPC?
+
+What is thread pool in libuv?
+
+Which Node operations use libuv thread pool?
+
+How do you tune UV_THREADPOOL_SIZE?
+
+When can increasing UV_THREADPOOL_SIZE help?
+
+When can increasing UV_THREADPOOL_SIZE hurt?
+
+What is backpressure in streams?
+
+Why are streams more memory efficient than buffering entire payloads?
+
+What is readable stream?
+
+What is writable stream?
+
+What is duplex stream?
+
+What is transform stream?
+
+What is pipe in Node.js streams?
+
+What happens if producer is faster than consumer in streams?
+
+What is highWaterMark?
+
+How do you handle large file uploads safely in Node.js?
+
+Why is buffering entire upload in memory risky?
+
+What is multipart/form-data?
+
+What is Multer, and what are its limitations?
+
+When is Busboy better than Multer?
+
+How do you scan uploaded files for malware?
+
+Why must upload content-type not be blindly trusted?
+
+What is MIME spoofing?
+
+How do you validate uploaded file type securely?
+
+How do you handle partially uploaded files if client disconnects?
+
+What is resumable upload?
+
+Why use pre-signed URLs for file uploads?
+
+What is CDN?
+
+How does CDN help static content delivery?
+
+When should API responses be cached at CDN level?
+
+What headers control HTTP caching?
+
+What is Cache-Control?
+
+What is ETag?
+
+What is conditional GET?
+
+What is 304 Not Modified?
+
+How do ETags reduce server load?
+
+What is compression middleware?
+
+When should gzip or brotli be enabled?
+
+What is the downside of compression for small responses?
+
+What is request payload validation?
+
+Why must validation happen at API boundary?
+
+What is schema validation?
+
+What libraries can validate request payloads in Node?
+
+What is the difference between validation and sanitization?
+
+Why is over-trusting frontend validation a mistake?
+
+What is SQL injection?
+
+What is NoSQL injection?
+
+How can Mongo queries be abused by unvalidated input?
+
+What is prototype pollution in JavaScript?
+
+How can prototype pollution affect Node apps?
+
+What is command injection?
+
+How do you avoid command injection in child_process usage?
+
+Why is eval dangerous in Node.js?
+
+What is path traversal vulnerability?
+
+How do you prevent path traversal in file-serving APIs?
+
+What is SSRF?
+
+How can SSRF happen in backend integrations?
+
+How do you protect outbound HTTP calls from SSRF abuse?
+
+What is CORS preflight?
+
+Why does browser send OPTIONS before some cross-origin requests?
+
+What is Access-Control-Allow-Credentials?
+
+Why is * invalid when credentials are allowed?
+
+What is SameSite cookie?
+
+What are SameSite=Lax, Strict, None?
+
+When should SameSite=None be used?
+
+Why must SameSite=None cookies also be Secure?
+
+What is HttpOnly cookie?
+
+Why should JWT in localStorage be used carefully?
+
+What are security trade-offs of cookie-based auth vs token in localStorage?
+
+What is CSRF protection strategy for cookie auth?
+
+What is refresh token rotation?
+
+Why is refresh token theft dangerous?
+
+What is token revocation?
+
+How do you revoke JWT if JWT is stateless?
+
+What is session fixation?
+
+How do you prevent session fixation?
+
+Why regenerate session after login?
+
+What is bcrypt cost factor?
+
+How do you choose bcrypt rounds in production?
+
+Why should password hashing be intentionally slow?
+
+What is Argon2, and why is it preferred in some systems?
+
+What is rainbow table attack?
+
+How does salt help against rainbow table attacks?
+
+Why should each password have unique salt?
+
+What is pepper in password security?
+
+Where should pepper be stored?
+
+What is account lockout strategy?
+
+Why can aggressive account lockout be abused for denial of service?
+
+What is brute force protection?
+
+How do you protect login APIs from credential stuffing?
+
+What is MFA, and how does backend support it?
+
+What is TOTP?
+
+What is the difference between authentication, authorization, and accounting?
+
+What is RBAC?
+
+What is ABAC?
+
+What is least privilege principle?
+
+How do you design role-based access control in Node APIs?
+
+What is policy enforcement point?
+
+What is policy decision point?
+
+What is multi-tenant architecture?
+
+What is tenant isolation?
+
+How do you prevent one tenant from accessing another tenant’s data?
+
+What is row-level security at application layer?
+
+What is soft multitenancy vs hard multitenancy?
+
+When would you choose separate DB per tenant?
+
+What is connection pooling in Node database clients?
+
+Why is opening a new DB connection per request a bad idea?
+
+What is connection leak?
+
+How do you detect DB connection leaks?
+
+What is transaction isolation level?
+
+What is dirty read?
+
+What is non-repeatable read?
+
+What is phantom read?
+
+How do transactions behave differently in MongoDB vs SQL databases?
+
+When should transactions be avoided?
+
+What is indexing?
+
+Why can too many indexes hurt write performance?
+
+What is covered query?
+
+What is compound index?
+
+What is index cardinality?
+
+Why is low-cardinality index often less useful?
+
+What is query plan?
+
+Why should slow queries be profiled in production?
+
+What is N+1 query problem?
+
+Give a Node/ORM example of N+1 issue.
+
+What is pagination by offset?
+
+What is cursor-based pagination?
+
+Why does offset pagination degrade at large scale?
+
+When is cursor pagination preferred?
+
+What is sharding?
+
+What is replication?
+
+What is primary-replica architecture?
+
+What is read replica lag?
+
+Why can reading from replica immediately after write return stale data?
+
+How do you decide whether read replicas are acceptable?
+
+What is failover?
+
+What is leader election in databases?
+
+What is write amplification?
+
+What is hot partition problem?
+
+What is partition key design?
+
+Why can poor partition key destroy distributed database performance?
+
+What is DynamoDB-style partition hot spotting conceptually?
+
+What is batch processing?
+
+What is stream processing?
+
+What is the difference between batch ETL and real-time pipeline?
+
+What is data pipeline backpressure?
+
+What is ordered processing?
+
+When does strict message ordering matter?
+
+What is out-of-order event arrival?
+
+How do you handle out-of-order events in backend systems?
+
+What is clock skew problem?
+
+Why can distributed timestamps be misleading?
+
+What is idempotent consumer design?
+
+How do you handle duplicate webhook deliveries?
+
+Why must webhook handlers be idempotent?
+
+What is webhook signature verification?
+
+Why should webhook source be verified?
+
+What happens if a webhook provider retries after timeout but your system had actually processed it?
+
+How do you design webhook ingestion at scale?
+
+What is webhook fan-out?
+
+What is dead-letter handling for failed webhooks?
+
+What is API backpressure under downstream dependency slowness?
+
+How do you protect upstream services from slow downstream dependencies?
+
+What is request hedging?
+
+When can request hedging improve latency?
+
+What is the risk of request hedging?
+
+What is load shedding?
+
+When should a system deliberately reject requests?
+
+What is admission control?
+
+Why is serving every request sometimes the wrong strategy?
+
+What is brownout strategy?
+
+How do you prioritize critical traffic during overload?
+
+What is graceful degradation example in an e-commerce API?
+
+What would you disable first under overload: search, recommendations, or checkout? Why?
+
+What is thundering herd problem?
+
+How do you prevent thundering herd on cache miss?
+
+What is cold start?
+
+How do cold starts affect serverless Node functions?
+
+What is serverless architecture?
+
+When is serverless a good fit for Node.js?
+
+When is serverless a bad fit for Node.js?
+
+What are execution time limits in serverless functions?
+
+Why is DB connection management different in serverless?
+
+What is function concurrency in serverless?
+
+What is provisioned concurrency?
+
+What is infrastructure as code?
+
+Why is Terraform or similar IaC useful for backend systems?
+
+What is config drift?
+
+Why should infrastructure changes be version controlled?
+
+What is secrets management?
+
+Why should secrets not live in .env files in production images?
+
+What is secret rotation?
+
+How do you rotate DB passwords or API keys safely?
+
+What is KMS conceptually?
+
+Why encrypt data at rest and in transit?
+
+What is TLS handshake at a high level?
+
+What is mTLS?
+
+When would you use mutual TLS between services?
+
+What is certificate rotation?
+
+What is HSTS?
+
+What is content security policy, and does backend influence it?
+
+What is rate limiting by IP, by user, and by token?
+
+Which is better: rate limit by IP or by authenticated identity?
+
+How do NAT users complicate IP-based rate limiting?
+
+What is bot mitigation?
+
+What is captcha, and where does backend fit in?
+
+What is abuse detection in APIs?
+
+What patterns indicate scraping or abuse?
+
+How would you detect abnormal API usage?
+
+What is anomaly-based alerting?
+
+What is threshold-based alerting?
+
+Which is better for sudden traffic spikes?
+
+What is synthetic monitoring?
+
+What is real user monitoring?
+
+What is chaos engineering?
+
+How can chaos testing help backend reliability?
+
+What failures would you simulate in a Node microservice system?
+
+What happens if Redis latency jumps from 2ms to 200ms?
+
+What happens if DB connection pool is saturated?
+
+What happens if DNS resolution starts failing intermittently?
+
+What happens if one third-party API becomes very slow?
+
+How do you isolate a failing downstream dependency?
+
+What is blast radius?
+
+How do you reduce blast radius in distributed systems?
+
+What is a runbook?
+
+Why should production incidents have runbooks?
+
+What is incident response?
+
+What is postmortem?
+
+What makes a good postmortem?
+
+Why should postmortems be blameless?
+
+What is root cause analysis?
+
+What is the difference between root cause and trigger?
+
+What is the five whys technique?
+
+How do you investigate intermittent Node production errors?
+
+What signals would you check first during a Node outage?
+
+CPU high, memory normal, latency high—what are your first hypotheses?
+
+Memory climbing slowly, CPU normal, restarts temporarily fix—what is your suspicion?
+
+Error rate high only for large payload requests—what would you inspect?
+
+Login API failing only in browser, not Postman—what would you suspect?
+
+Requests failing only cross-origin from frontend—what would you inspect first?
+
+Users getting logged out randomly across instances—what architecture issue might exist?
+
+File uploads fail only for large files in production, not locally—what layers would you inspect?
+
+API works in one pod but fails in another—what categories of problem are likely?
+
+Background jobs duplicate after deployment—what design mistake may exist?
+
+If you were asked to review a Node.js production system “out of the box,” what 20 things would you inspect first before trusting it?
+
+If you want, I can continue with 751–1000 in the same style, focusing even more on senior real-time incident handling, architecture trade-offs, and system design defense
