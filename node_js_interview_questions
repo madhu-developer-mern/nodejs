@@ -1,0 +1,453 @@
+1. JavaScript Foundations Required for Node
+
+Execution Context
+
+Call Stack
+
+Scope Chain
+
+Closures
+
+Hoisting
+
+Prototype Chain
+
+this binding
+
+Arrow Functions vs Normal Functions
+
+Event Delegation
+
+Promises
+
+Async/Await
+
+Generators
+
+Iterators
+
+Microtask Queue
+
+Macrotask Queue
+
+Memory Allocation in JS
+
+Garbage Collection
+
+WeakMap / WeakSet
+
+2. V8 Engine Concepts
+
+V8 Architecture
+
+JIT Compilation
+
+Hidden Classes
+
+Inline Caching
+
+V8 Heap Structure
+
+Stack vs Heap in V8
+
+Garbage Collection Algorithms (Mark & Sweep)
+
+Heap Snapshots
+
+Memory Profiling
+
+3. Node.js Runtime Architecture
+
+Node.js Architecture
+
+Single Threaded Event Driven Model
+
+Event Loop
+
+Event Loop Phases
+
+Poll Phase
+
+Check Phase
+
+Close Callbacks Phase
+
+Timers Phase
+
+Pending Callbacks Phase
+
+Idle/Prepare Phase
+
+4. Event Loop Advanced
+
+Microtasks vs Macrotasks
+
+process.nextTick()
+
+Promise.resolve().then() queue
+
+setImmediate()
+
+setTimeout()
+
+setInterval()
+
+Event Loop Starvation
+
+Blocking the Event Loop
+
+5. libuv Internals
+
+libuv Architecture
+
+Async I/O Handling
+
+Thread Pool
+
+Network I/O
+
+File System I/O
+
+DNS Resolution
+
+Worker Thread Pool Tasks
+
+6. Node Core Modules
+
+fs
+
+http
+
+https
+
+path
+
+url
+
+crypto
+
+zlib
+
+dns
+
+net
+
+tls
+
+events
+
+stream
+
+buffer
+
+child_process
+
+worker_threads
+
+cluster
+
+timers
+
+os
+
+7. EventEmitter System
+
+EventEmitter Architecture
+
+Custom Events
+
+Event Listeners
+
+Event Propagation
+
+Memory Leak in EventEmitter
+
+8. Streams
+
+Streams Architecture
+
+Readable Streams
+
+Writable Streams
+
+Duplex Streams
+
+Transform Streams
+
+Flowing Mode
+
+Paused Mode
+
+Backpressure Handling
+
+Pipe Mechanism
+
+Stream Buffering
+
+HighWaterMark
+
+9. Buffers & Binary Data
+
+Buffer Allocation
+
+Buffer Pooling
+
+Typed Arrays
+
+Base64 Encoding
+
+Binary Protocol Handling
+
+10. Modules System
+
+CommonJS Modules
+
+ES Modules
+
+Module Resolution Algorithm
+
+Module Caching
+
+Circular Dependencies
+
+Dynamic Imports
+
+Conditional Exports
+
+11. File System Deep Concepts
+
+Async File Operations
+
+Sync File Operations
+
+File Descriptors
+
+File Streams
+
+File Watchers
+
+12. Networking in Node
+
+HTTP Server Architecture
+
+HTTP Request Lifecycle
+
+TCP Servers
+
+UDP Communication
+
+WebSockets
+
+HTTP/2
+
+gRPC
+
+13. Express Framework Concepts
+
+Middleware Architecture
+
+Request Lifecycle
+
+Route Parameters
+
+Query Parsing
+
+Body Parsing
+
+Error Handling Middleware
+
+Async Error Handling
+
+Router Architecture
+
+14. Authentication & Security
+
+JWT
+
+OAuth
+
+API Keys
+
+bcrypt Password Hashing
+
+Argon2 Hashing
+
+CORS
+
+CSRF Protection
+
+Helmet Security Headers
+
+Input Validation
+
+Rate Limiting
+
+15. Performance Optimization
+
+CPU Profiling
+
+Memory Profiling
+
+Event Loop Lag
+
+Benchmarking
+
+Async Patterns Optimization
+
+16. Memory Management
+
+Heap Memory
+
+Heap Snapshots
+
+Memory Leaks
+
+Garbage Collection Tuning
+
+17. Concurrency
+
+Worker Threads
+
+Thread Pools
+
+Cluster Module
+
+Child Processes
+
+Inter Process Communication
+
+18. Scaling
+
+Horizontal Scaling
+
+Vertical Scaling
+
+Load Balancing
+
+Stateless Architecture
+
+19. Database Concepts
+
+Connection Pooling
+
+Transactions
+
+Indexing
+
+Sharding
+
+Replication
+
+20. Message Queues
+
+RabbitMQ
+
+Kafka
+
+Redis Queues
+
+BullMQ
+
+AWS SQS
+
+21. Event Driven Systems
+
+Event Driven Architecture
+
+Pub/Sub Systems
+
+Event Streaming
+
+Event Sourcing
+
+22. Caching
+
+Redis
+
+Memcached
+
+CDN Caching
+
+Cache Invalidation
+
+23. Distributed Systems
+
+Idempotency
+
+Retry Mechanisms
+
+Circuit Breaker
+
+Saga Pattern
+
+CQRS
+
+24. API Architecture
+
+REST Architecture
+
+GraphQL
+
+API Gateway
+
+API Versioning
+
+Idempotent APIs
+
+25. Observability
+
+Logging
+
+Metrics
+
+Distributed Tracing
+
+Tools:
+
+Prometheus
+
+Grafana
+
+ELK Stack
+
+26. Testing
+
+Unit Testing
+
+Integration Testing
+
+Mocking
+
+API Testing
+
+Tools:
+
+Jest
+
+Mocha
+
+Supertest
+
+27. Production Deployment
+
+PM2
+
+Docker
+
+Kubernetes
+
+Nginx
+
+Load Balancers
+
+28. Advanced Node Architect Topics
+
+Microservices Architecture
+
+API Gateway Pattern
+
+Service Discovery
+
+Container Orchestration
+
+Serverless Node Applications
