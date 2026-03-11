@@ -1,0 +1,406 @@
+Fundamentals (1–100)
+
+What is Node.js?
+
+How is Node.js different from browser JavaScript?
+
+Why is Node.js considered non-blocking?
+
+What is the event-driven architecture?
+
+What is the event loop?
+
+Why is Node.js single-threaded?
+
+How does Node.js handle concurrent requests?
+
+What is asynchronous programming?
+
+Difference between synchronous and asynchronous code?
+
+What is callback hell?
+
+How do promises solve callback hell?
+
+What is async/await?
+
+What happens when async function throws error?
+
+Difference between Promise.all and Promise.race?
+
+Difference between Promise.allSettled and Promise.any?
+
+What is Node REPL?
+
+What are Node core modules?
+
+What is npm?
+
+What is package.json?
+
+What is package-lock.json?
+
+What is semantic versioning?
+
+What is require()?
+
+What is module.exports?
+
+What is exports?
+
+Difference between require and import?
+
+What is CommonJS?
+
+What is ES module?
+
+What is module caching?
+
+What is global object in Node?
+
+What is __dirname?
+
+What is __filename?
+
+What is process object?
+
+What is process.argv?
+
+What is process.env?
+
+What is process.exit()?
+
+What is process.cwd()?
+
+What are Node streams?
+
+Types of streams?
+
+What is buffer?
+
+What is fs module?
+
+What is path module?
+
+What is os module?
+
+What is util module?
+
+What is events module?
+
+What is event emitter?
+
+How to create custom events?
+
+What is http module?
+
+How to create HTTP server in Node?
+
+What is request object?
+
+What is response object?
+
+What is routing?
+
+What is middleware?
+
+What is Express?
+
+Why use Express instead of http module?
+
+What is body parser?
+
+What is JSON parsing?
+
+What is query string?
+
+What is REST API?
+
+What are HTTP methods?
+
+Difference between PUT and PATCH?
+
+What is idempotency?
+
+What are status codes?
+
+What is CORS?
+
+What is cookie?
+
+What is session?
+
+Difference between session and JWT?
+
+What is JWT?
+
+What is token based authentication?
+
+What is bcrypt?
+
+What is password hashing?
+
+What is salt in hashing?
+
+What is rate limiting?
+
+What is API throttling?
+
+What is request validation?
+
+What is input sanitization?
+
+What is logging?
+
+What is debugging?
+
+What is nodemon?
+
+What is PM2?
+
+What is cluster module?
+
+What is worker thread?
+
+What is child process?
+
+What is spawn vs exec?
+
+What is fork?
+
+What is IPC?
+
+What is libuv?
+
+What is V8 engine?
+
+What is garbage collection?
+
+What is memory leak?
+
+What is heap?
+
+What is stack?
+
+What is event loop lag?
+
+What is blocking code?
+
+What is non-blocking I/O?
+
+What is DNS lookup?
+
+What is TCP server?
+
+What is UDP?
+
+What is WebSocket?
+
+What is HTTP2?
+
+What is gRPC?
+
+Intermediate Concepts (101–300)
+
+Explain event loop phases.
+
+Difference between setImmediate and setTimeout.
+
+Explain process.nextTick.
+
+Explain microtask queue.
+
+Explain macrotask queue.
+
+Why process.nextTick executes before promises.
+
+What is event loop starvation.
+
+How to detect event loop blocking.
+
+What operations run in libuv thread pool.
+
+Why file operations use thread pool.
+
+What happens when Node reads a file.
+
+What happens when Node receives HTTP request.
+
+How Express handles middleware chain.
+
+How routing works internally.
+
+What happens when error thrown in middleware.
+
+What is next() in Express.
+
+How to implement global error handler.
+
+How to implement request logging middleware.
+
+How to implement rate limiter middleware.
+
+How to implement authentication middleware.
+
+What is backpressure in streams.
+
+How pipe works internally.
+
+What is HighWaterMark.
+
+How to create custom readable stream.
+
+How to create transform stream.
+
+What is connection pooling.
+
+Why database pooling needed.
+
+What is transaction.
+
+What is ACID property.
+
+What is indexing.
+
+What is sharding.
+
+What is replication.
+
+What is eventual consistency.
+
+What is distributed lock.
+
+What is Redis cache.
+
+What is cache invalidation.
+
+What is CDN.
+
+What is load balancing.
+
+What is horizontal scaling.
+
+What is vertical scaling.
+
+What is stateless architecture.
+
+What is sticky session.
+
+What is service discovery.
+
+What is API gateway.
+
+What is microservices architecture.
+
+What is monolith architecture.
+
+What is event driven architecture.
+
+What is message queue.
+
+What is pub/sub model.
+
+What is Kafka.
+
+What is RabbitMQ.
+
+What is SQS.
+
+What is background job.
+
+What is cron job.
+
+What is queue worker.
+
+What is idempotent API.
+
+What is retry mechanism.
+
+What is exponential backoff.
+
+What is circuit breaker.
+
+What is saga pattern.
+
+What is CQRS pattern.
+
+What is API versioning.
+
+What is structured logging.
+
+What is centralized logging.
+
+What is distributed tracing.
+
+What is Prometheus.
+
+What is Grafana.
+
+What is ELK stack.
+
+What is OpenTelemetry.
+
+What is Docker.
+
+What is containerization.
+
+What is Kubernetes.
+
+What is reverse proxy.
+
+What is Nginx.
+
+What is load balancer algorithm.
+
+What is round robin.
+
+What is least connection.
+
+What is health check.
+
+What is blue green deployment.
+
+What is canary deployment.
+
+What is rolling deployment.
+
+What is zero downtime deployment.
+
+What is graceful shutdown.
+
+What happens if Node crashes.
+
+How to restart Node process automatically.
+
+How to monitor Node performance.
+
+How to debug production issues.
+
+What is heap snapshot.
+
+What is CPU profiling.
+
+What is flame graph.
+
+How to detect memory leak.
+
+What tools detect memory leak.
+
+How to optimize Node performance.
+
+How to reduce API latency.
+
+How to optimize DB queries.
+
+How to reduce network overhead.
+
+How to optimize Node server.
+
+How to avoid blocking event loop.
+
+How to run CPU intensive tasks.
+
+How to implement worker threads.
+
+
+
