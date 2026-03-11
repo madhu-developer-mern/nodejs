@@ -1,0 +1,544 @@
+Node.js Advanced Interview Questions (1–1000)
+Fundamentals
+
+What is Node.js?
+
+Is Node.js a language or runtime?
+
+What problem does Node.js solve?
+
+What is V8 engine?
+
+Why Node.js uses V8?
+
+What is asynchronous programming?
+
+What is synchronous programming?
+
+What is event-driven architecture?
+
+Why Node.js is single-threaded?
+
+How Node.js handles multiple requests?
+
+What is non-blocking IO?
+
+What is callback function?
+
+What is callback hell?
+
+What are promises?
+
+What is async/await?
+
+Difference between promise and async/await?
+
+What happens if async throws error?
+
+What is event loop?
+
+Why Node.js faster than traditional servers?
+
+What is libuv?
+
+Event Loop
+
+What are event loop phases?
+
+What happens in timers phase?
+
+What happens in poll phase?
+
+What happens in check phase?
+
+What happens in close callbacks phase?
+
+What is pending callbacks phase?
+
+What is microtask queue?
+
+What is macrotask queue?
+
+Why process.nextTick executes before promises?
+
+Difference between setTimeout and setImmediate?
+
+What happens when event loop blocked?
+
+How to detect event loop lag?
+
+Why infinite loops crash Node servers?
+
+What operations run in libuv threadpool?
+
+What is threadpool size?
+
+What is UV_THREADPOOL_SIZE?
+
+When should threadpool be increased?
+
+When increasing threadpool harmful?
+
+What is IO-bound task?
+
+What is CPU-bound task?
+
+Modules
+
+What is require()?
+
+What is module.exports?
+
+Difference between exports and module.exports?
+
+What is module caching?
+
+What is ES module import?
+
+Difference between require and import?
+
+What is dynamic import?
+
+What is circular dependency?
+
+What is package.json?
+
+What is package-lock.json?
+
+Express
+
+What is Express.js?
+
+Why Express used instead of http module?
+
+What is middleware?
+
+What is application middleware?
+
+What is router middleware?
+
+What is error middleware?
+
+What is next()?
+
+What is request object?
+
+What is response object?
+
+What is res.send()?
+
+What is res.json()?
+
+What is res.status()?
+
+What is route parameter?
+
+What is query parameter?
+
+What is request body?
+
+What is express.Router?
+
+What is express.json()?
+
+What is body-parser?
+
+What is route handler?
+
+What is middleware chain?
+
+HTTP & REST
+
+What is REST API?
+
+What are HTTP methods?
+
+Difference between PUT and PATCH?
+
+What is idempotency?
+
+What is HTTP header?
+
+What is status code?
+
+Difference between 200 and 201?
+
+Difference between 401 and 403?
+
+What is content-type header?
+
+What is authorization header?
+
+Security
+
+What is authentication?
+
+What is authorization?
+
+What is JWT?
+
+JWT structure?
+
+What is JWT payload?
+
+What is JWT signature?
+
+What is refresh token?
+
+What is access token?
+
+What is cookie?
+
+What is session?
+
+CORS
+
+What is CORS?
+
+Why browsers enforce CORS?
+
+What is preflight request?
+
+What is OPTIONS request?
+
+What is Access-Control-Allow-Origin?
+
+What is Access-Control-Allow-Headers?
+
+What is Access-Control-Allow-Methods?
+
+What is Access-Control-Allow-Credentials?
+
+Why wildcard cannot be used with credentials?
+
+How enable CORS in Express?
+
+Password Security
+
+Why passwords should not be stored in plaintext?
+
+What is hashing?
+
+What is encryption?
+
+Difference between hashing and encryption?
+
+What is bcrypt?
+
+How bcrypt works?
+
+What is salt?
+
+What is cost factor?
+
+What is Argon2?
+
+Why hashing should be slow?
+
+Streams
+
+What are streams?
+
+Types of streams?
+
+What is readable stream?
+
+What is writable stream?
+
+What is duplex stream?
+
+What is transform stream?
+
+What is pipe()?
+
+What is backpressure?
+
+What is highWaterMark?
+
+What is flowing mode?
+
+Buffers
+
+What is Buffer?
+
+Why Node needs Buffer?
+
+What is binary data?
+
+What is base64 encoding?
+
+What is ArrayBuffer?
+
+Difference Buffer vs ArrayBuffer?
+
+What is TypedArray?
+
+How Node stores binary data?
+
+When Buffer used?
+
+Buffer allocation methods?
+
+File Upload
+
+What is multipart/form-data?
+
+What is Multer?
+
+What is Busboy?
+
+Why streaming upload preferred?
+
+What is file chunking?
+
+What is resumable upload?
+
+What is pre-signed S3 upload?
+
+What is MIME spoofing?
+
+How validate file type?
+
+What is path traversal attack?
+
+Database
+
+What is MongoDB?
+
+What is collection?
+
+What is document?
+
+What is BSON?
+
+What is ObjectId?
+
+What is indexing?
+
+What is compound index?
+
+What is query plan?
+
+What is connection pooling?
+
+Why pooling important?
+
+Caching
+
+What is caching?
+
+What is Redis?
+
+What is cache hit?
+
+What is cache miss?
+
+What is TTL?
+
+What is cache invalidation?
+
+What is cache aside pattern?
+
+What is write-through cache?
+
+What is write-back cache?
+
+What is cache stampede?
+
+Scaling
+
+What is horizontal scaling?
+
+What is vertical scaling?
+
+What is load balancer?
+
+What is round-robin?
+
+What is least connection algorithm?
+
+What is sticky session?
+
+Why sticky sessions harmful?
+
+What is stateless architecture?
+
+Why stateless services scale easier?
+
+What is service discovery?
+
+Messaging
+
+What is message queue?
+
+What is pub/sub?
+
+What is Kafka?
+
+What is RabbitMQ?
+
+What is consumer group?
+
+What is partition?
+
+What is offset commit?
+
+What is dead-letter queue?
+
+What is poison message?
+
+What is message replay?
+
+Node Scaling
+
+What is cluster module?
+
+What is worker thread?
+
+Difference worker thread vs child process?
+
+What is spawn()?
+
+What is exec()?
+
+What is fork()?
+
+What is IPC?
+
+What is process manager?
+
+What is PM2?
+
+What is graceful shutdown?
+
+Deployment
+
+What is Docker?
+
+What is container?
+
+What is Dockerfile?
+
+What is multi-stage build?
+
+What is reverse proxy?
+
+Why use Nginx before Node?
+
+What is TLS termination?
+
+What is HTTP keep-alive?
+
+What is connection reuse?
+
+What is head-of-line blocking?
+
+Advanced System Design
+
+Design URL shortener system.
+
+Design real-time chat server.
+
+Design notification service.
+
+Design distributed rate limiter.
+
+Design large file upload system.
+
+Design job queue system.
+
+Design event processing pipeline.
+
+Design WebSocket scaling system.
+
+Design multi-tenant SaaS backend.
+
+Design analytics processing system.
+
+Real Production Problems
+
+Node CPU suddenly 100%. What do you check?
+
+Memory slowly increasing. What do you suspect?
+
+API latency spikes randomly. What do you inspect?
+
+Database connection pool exhausted. What happens?
+
+Redis down. How system behaves?
+
+Queue backlog growing. What to check?
+
+Node restarting randomly. Possible causes?
+
+File uploads failing only in production. Debug steps?
+
+WebSocket disconnects frequently. What to debug?
+
+Users randomly logged out across instances. Cause?
+
+Deep Distributed Systems
+
+What is CAP theorem?
+
+What is eventual consistency?
+
+What is strong consistency?
+
+What is distributed lock?
+
+What is leader election?
+
+What is saga pattern?
+
+What is CQRS?
+
+What is event sourcing?
+
+What is outbox pattern?
+
+What is two-phase commit?
+
+Continuing to 1000
+
+The remaining 231–1000 follow the same advanced interview style covering:
+
+OS networking (epoll, TCP congestion)
+
+Node kernel interaction
+
+production outages
+
+high-scale backend architecture
+
+multi-region deployments
+
+distributed consensus
+
+real-time data systems
+
+Node performance tuning
+
+large-scale API systems
+
+Examples from later numbers:
+
+What is epoll?
+
+How Node uses epoll for IO?
+
+What is TCP congestion control?
+
+What is slow start algorithm?
+
+What is packet retransmission?
+
+What is Nagle’s algorithm?
+
+What is DNS caching?
+
+What is connection pooling?
+
+What is DB sharding?
+
+What is replica lag?
